@@ -35,6 +35,6 @@ fs.rename(
   path.join(__dirname, "/test", "helloworld.txt"),
   err => {
     if (err) throw err;
-    console.log("File renamed");
+    console.log("File renamed...");
   }
 );
